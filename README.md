@@ -11,7 +11,7 @@ GoIndex 部署与配置指南 (KV 优化版)
   <img src="https://deploy.workers.cloudflare.com/button" alt="Deploy with Cloudflare"/>
 </a>
 
-&lt;a href="https://deploy.workers.cloudflare.com/?url=https://github.com/chiaki-ak/goindex-template&amp;type=script" target="_blank">
+&lt;a href="https://deploy.workers.cloudflare.com/?url=https://github.com/xckc/test&amp;type=script" target="_blank">
 &lt;img src="https://deploy.workers.cloudflare.com/button" alt="Deploy with Cloudflare"/>
 &lt;/a>
 
