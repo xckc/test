@@ -11,6 +11,10 @@ GoIndex 部署与配置指南 (KV 优化版)
   <img src="https://deploy.workers.cloudflare.com/button" alt="Deploy with Cloudflare"/>
 </a>
 
+&lt;a href="https://deploy.workers.cloudflare.com/?url=https://github.com/chiaki-ak/goindex-template&amp;type=script" target="_blank">
+&lt;img src="https://deploy.workers.cloudflare.com/button" alt="Deploy with Cloudflare"/>
+&lt;/a>
+
 重要提示：
 
 关于 "package.json not found" 错误： 上方的按钮链接中包含 &type=script 参数，这是为了告知 Cloudflare 这是一个单脚本项目。如果您从其他地方复制的链接缺少此参数，可能会遇到 “在提供的目录中找不到 package.json 文件” 的错误。
