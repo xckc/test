@@ -1,0 +1,20 @@
+# wrangler.toml
+
+# 您的 Worker 名称，可以自定义
+name = "my-goindex-worker"
+
+# 主入口脚本文件
+main = "index.js"
+
+# 兼容性日期，保持最新即可
+compatibility_date = "2024-06-10"
+
+# --- KV 命名空间绑定 ---
+# 这是自动创建并绑定 KV 的核心配置
+[[kv_namespaces]]
+# 这里的 "GD_INDEX_CACHE" 必须与 index.js 代码中的变量名完全一致
+binding = "GD_INDEX_CACHE"
+# 您可以为将要创建的 KV 命名空间指定一个预览版和正式版的 ID
+# Wrangler 会在首次部署时自动为您创建这个命名空间
+id = "" # 将来部署后会自动填充
+preview_id = "" # 将来部署后会自动填充
