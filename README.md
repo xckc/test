@@ -7,10 +7,15 @@ GoIndex 部署与配置指南 (KV 优化版)
 操作流程:
 
 点击下方按钮进行部署：
-<a href="https://deploy.workers.cloudflare.com/?url=https://github.com/xckc/test" target="_blank">
+<a href="https://deploy.workers.cloudflare.com/?url=https://github.com/xckc/test&type=script" target="_blank">
   <img src="https://deploy.workers.cloudflare.com/button" alt="Deploy with Cloudflare"/>
 </a>
 
+重要提示：
+
+关于 "package.json not found" 错误： 上方的按钮链接中包含 &type=script 参数，这是为了告知 Cloudflare 这是一个单脚本项目。如果您从其他地方复制的链接缺少此参数，可能会遇到 “在提供的目录中找不到 package.json 文件” 的错误。
+
+关于 Fork (派生) 仓库： 此按钮会直接部署预设的模板。如果您想修改代码后再部署，正确的做法是：先 Fork (派生) 模板仓库到您自己的 GitHub 账户，然后在您自己的仓库页面中找到并点击这个部署按钮。
 
 
 授权并创建项目：
