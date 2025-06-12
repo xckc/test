@@ -7,7 +7,9 @@ GoIndex 部署与配置指南 (KV 优化版)
 操作流程:
 
 点击下方按钮进行部署：
-
+<a href="https://deploy.workers.cloudflare.com/?url=https://github.com/xckc/test" target="_blank">
+  <img src="https://deploy.workers.cloudflare.com/button" alt="Deploy with Cloudflare"/>
+</a>
 
 
 
